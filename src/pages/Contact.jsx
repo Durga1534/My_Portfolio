@@ -145,7 +145,7 @@ const Contact = ({ isDarkMode }) => {
                 <FaGithub size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/durga1534" 
+                href="https://linkedin.com/in/durgaprasad23" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800"
