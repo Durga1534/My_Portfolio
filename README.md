@@ -6,7 +6,7 @@
 
 ## ✨ Inspiration
 
-This portfolio was inspired by the elegant simplicity of modern web browsers. I wanted to create a unique portfolio experience that would feel both familiar and innovative to visitors. The browser tab navigation metaphor provides an intuitive way to showcase different aspects of my professional profile while adding a touch of playful nostalgia.
+This portfolio was inspired by the elegant simplicity of modern web browsers. I wanted to create a unique portfolio experience that would feel both familiar and innovative to visitors. The browser tab navigation provides an intuitive way to showcase different aspects of my professional profile while adding a touch of playful nostalgia.
 
 The design combines the clean aesthetic of modern browsers with interactive elements that invite exploration. Just as we navigate the web through browser tabs, visitors can explore different facets of my work and skills through this interface.
 
