@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJsSquare } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiExpress, SiFirebase } from 'react-icons/si';
 
 {/* Image Links */}
 import Project1 from "../assets/project1.png";
 import Model from "../assets/model.png";
 import Mortgage from "../assets/mortgage.jpg";
 import Pokemon1 from "../assets/Pokemon.jpg";
+import Interview from "../assets/Interview.png"
 
 const techIcons = {
   'React.js': <FaReact className="text-blue-500 text-sm" />,
@@ -23,6 +24,14 @@ const techIcons = {
 const projects = [
   {
     id: 1,
+    title: 'Prep-AI',
+    desc: 'Prep-AI is a full-stack web application designed to help candidates prepare for interviews based on selected roles. It leverages AI to generate tailored questions—both theoretical and coding',
+    image: Interview,
+    githubLink: 'https://github.com/Durga1534/Prep_AI',
+    tech: ['React.js', 'JavaScript', 'Node.js', 'Tailwind CSS', 'Firebase'],
+  },
+  {
+    id: 2,
     title: 'Project Management System',
     desc: 'A Management system designed to maintain users, tasks, teams, and projects.',
     image: Project1,
@@ -30,7 +39,7 @@ const projects = [
     tech: ['React.js', 'Node.js', 'Tailwind CSS', 'Express', 'MongoDB'],
   },
   {
-    id: 2,
+    id: 3,
     title: '3D-Travel destination showcase',
     desc: 'A travel destination webpage to showcase famous destinations.',
     image: Model,
@@ -38,7 +47,7 @@ const projects = [
     tech: ['HTML', 'CSS'],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Mortgage Calculator',
     desc: 'Designed to calculate the amount to be repayed according to loan amount, interest rate and this gives accurate results based on user input.',
     image: Mortgage,
@@ -46,13 +55,14 @@ const projects = [
     tech: ['Javascript', 'CSS'],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Poke-Slider',
     desc: '3D- Webpage Designed to show various Pokemons with their info regarding their names, moves etc...',
     image: Pokemon1,
     githubLink: 'https://github.com/Durga1534/poke-slider',
     tech: ['HTML', 'CSS'],
   },
+  
 ];
 
 const Projects = ({ isDarkMode }) => {
