@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJsSquare } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiExpress, SiFirebase } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiExpress} from 'react-icons/si';
 
 {/* Image Links */}
 import Project1 from "../assets/project1.png";
 import Model from "../assets/model.png";
 import Mortgage from "../assets/mortgage.jpg";
 import Pokemon1 from "../assets/Pokemon.jpg";
-import Interview from "../assets/Interview.png"
+import Interview from "../assets/InterviewsPage.png"
 
 const techIcons = {
   'React.js': <FaReact className="text-blue-500 text-sm" />,
